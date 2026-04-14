@@ -101,7 +101,7 @@
 		"innerColor": [115,82,235],
 		"uniqueName": "Bertahan Untuk Budaya",
 		"uniqueText": "+1 Great Artist Point from [Culture] buildings in Capital\n+1 Great Artist Point in all cities with at least 10 [Population]\nNewly-trained land units may pass [Mountain] tiles in Friendly territory after discovering [Civil Service]",
-		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Trekker] promotion <after discovering [Civil Service]>", "New [Keraton Guard] units start with [15] Experience [in all cities]",
+		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Trekker] promotion <after discovering [Civil Service]>", "New [Keraton Guard] units start with [15] XP [in all cities]",
 					"Gain a free [Population Artist] [in all cities] <in cities with at least [10] [Population]>",
 					"Gain a free [Monument Artist] [in all cities] <in cities with a [Monument]> <in cities with a [Palace]>",
 					"Gain a free [Amphitheater Artist] [in all cities] <in cities with a [Amphitheater]> <in cities with a [Palace]>",
@@ -602,7 +602,7 @@
 		"outerColor": [250, 250, 250],
 		"innerColor": [50, 200, 250],
 		"uniqueName": "Nationalistic Fervor",
-		"uniques": ["[+20]% [Production] [in all cities] <when between [20] and [200] Happiness>", "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["[+20]% [Production] [in all cities] <when between [20] and [200] [Happiness]>", "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
 		"cities":["Skandros","Velasno","Halandorf","Trajen City","Ferlon","Ferlindhar","Selnos","Hoskoff","Ollendorf","Valderath","Wilneton","Reinenkoff"]
   },
 
@@ -836,7 +836,7 @@
 		"preferredVictoryType": "Diplomatic",
 
 		"uniqueName": "Home Shards",
-		"uniques": ["Gain [10] Influence with a [{Land} {military units}] gift to a City-State",
+		"uniques": ["Gain [10] Influence with a [{Land} {Military}] gift to a City-State",
 				"[+1 Culture] [in all cities] <during a Golden Age>"],
 		"cities": ["Kukunteli","Pistria","Ancitatians","Vivlia","Vondeplend"]
 	},
@@ -1103,7 +1103,34 @@
 					"[-50]% Unhappiness from [Population] [in all cities]",
 		            "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Ekadessva","Ekadessva City","Ekadessva Town","Ekadessva Village","Ekadessvaburg","Ekadessvaville"] //Temporary
+	},
+	// EbiKoumori
+	{
+		"name": "Midori",
+		"leaderName": "EbiKoumori",
+		"adjective": ["Midoru"],
+		"outerColor": [192, 84, 81],
+		"innerColor": [255, 255, 225],
+
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+	    "personality": "Autumn"
+
+		"startIntroPart1": "our people has wait for you, The Civilian has awaited your comeback. Now, that you're here, Come and Lead Midori back to its glory!",
+		"startIntroPart2": "Even after the war, we will always regroup and win back our freedom! Lead the People To it's former glory!"
+
+		"introduction": "Ah, hello. haha... today is... windy.. um, do you like autumn?",
+		"declaringWar": "Autumn is harvest season, the best time to harvest the territory.",
+		"attacked": "Your land will be stained with blood... nah with autumn!",
+		"defeated": "Woooooooooooahhhhhhhhhhhhhh(Death)",
+
+		"neutralHello": "Hello. my Friend.",
+		"hateHello": "hateHello. thank you.",
+    	"tradeRequest": "Do you know the world wrapped unciv map is surface of mobius ling or cylindrical geometry?",
+
+		"uniqueName": "Endless Autumn",
+		"uniques": ["[+1 Food] from [{Featureless} {Autumnland}] tiles [in all cities]","Comment [All units gain Autumn Curse Promotion (on death, generate Autumn Land on land). This spreads to units who attacked cursed unit.]","[All] units gain the [Autumn Curse] promotion <hidden from users>"],
+		"cities": ["Nutaunagi","Midorimushi","Ebimori","Akagai","Blue Sango","Tanicity","Rikugani","Benizuwaigani","Yatsumeunagi","Maguro","Kurage","Iruka","Umigame","Koumoriebi","Hirame","Unagi","Iseebi","Shiroiruka","Kawairuka","Suppon"],
+		"spyNames":["Mazime","Sekkachi","Okubyo","Namake","Ikari","Raku","Utu"]
 	}
-
-
 ]
